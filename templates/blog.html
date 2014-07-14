@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block content %}
+
+
+			<h1>Write your Blog</h1>
+			<br>
+			<form action="" method="post">
+			<input type="text" placeholder="Title" name="header" value="{{request.form.header}}"><br>
+				<br>
+			<textarea type="text" rows="5" cols="40" name="details">enter here</textarea><br>
+			<input class="btn btn default" type="submit" value="share" >
+</form>
+
+
+
+
+{% endblock %}
